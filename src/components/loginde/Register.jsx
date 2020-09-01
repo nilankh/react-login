@@ -4,13 +4,11 @@ import loginImg from "../../login.svg";
 class Register extends Component {
   constructor(props) {
     super(props);
-
-    
   }
 
   render() {
     return (
-      <div className="base-container">
+      <div className="base-container" ref={this.props.containerRef}>
         <div className="header">Register</div>
         <div className="content">
           <div className="image">
@@ -32,7 +30,6 @@ class Register extends Component {
               <label htmlFor="password">Password</label>
               <input type="password" name="password" placeholder="password" />
             </div>
-
           </div>
         </div>
         <div className="footer">

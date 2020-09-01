@@ -4,13 +4,11 @@ import loginImg from "../../login.svg";
 class Login extends Component {
   constructor(props) {
     super(props);
-
-    
   }
 
   render() {
     return (
-      <div className="base-container">
+      <div className="base-container" ref={this.props.containerRef}>
         <div className="header">Login</div>
         <div className="content">
           <div className="image">
