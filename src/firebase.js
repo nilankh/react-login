@@ -9,5 +9,5 @@ const config = {
   appId: "1:947341986898:web:6c2f6de92f919d3eaca38b",
 };
 
-firebase.initializeApp(config)
-export default firebase
+firebase.initializeApp(config);
+export default firebase;
